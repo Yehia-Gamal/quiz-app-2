@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <!-- Style Sheets Css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="quiz-container overflow-hidden bg-white rounded-3" id="quiz">
+      <div class="quiz-header p-5">
+        <h2 class="m-0 text-center p-3" id="question">Question Text</h2>
+        <ul class="list-unstyled p-0">
+          <li class="fs-5 mt-3 mb-3">
+            <input type="radio" name="answer" id="a" class="answer" />
+            <label for="a" id="a_text">Question</label>
+          </li>
+
+          <li class="fs-5 mt-3 mb-3">
+            <input type="radio" name="answer" id="b" class="answer" />
+            <label for="b" id="b_text">Question</label>
+          </li>
+
+          <li class="fs-5 mt-3 mb-3">
+            <input type="radio" name="answer" id="c" class="answer" />
+            <label for="c" id="c_text">Question</label>
+          </li>
+
+          <li class="fs-5 mt-3 mb-3">
+            <input type="radio" name="answer" id="d" class="answer" />
+            <label for="d" id="d_text">Question</label>
+          </li>
+        </ul>
+      </div>
+      <button class="btn btn-primary border-0 rounded-0 w-100 p-3" id="submit">Submit</button>
+    </div>
+
+    <!-- JS Files -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
